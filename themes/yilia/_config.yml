@@ -118,16 +118,11 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  # friends: '友链'
+  friends: '友链'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  导师博客: https://www.psvmc.cn/
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
