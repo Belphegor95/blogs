@@ -18,7 +18,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  # mail: "mailto:litten225@qq.com"
+  mail: "mailto:1040605621@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -136,4 +136,4 @@ deploy:
   verbose: true
   ignore_errors: false
 
-aboutme: Belphegor,<br>毕业于河南水利与环境<br>就职于郑州星火燎原软件<br><br><br>热爱计算机<br>现在只是一个小前端
+aboutme: Belphegor,<br>毕业于河南水利与环境<br>就职于郑州星火燎原软件<br><br><br>热爱计算机<br>现在只是一个小前端  

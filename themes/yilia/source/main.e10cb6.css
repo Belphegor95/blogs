@@ -1077,11 +1077,16 @@ pre .css ~ * .id {
       border: 1px solid #06c611; }
       #header .header-nav .social a.douban:hover {
         border: 1px solid #06c611; }
-    #header .header-nav .social a.mail {
+    /* #header .header-nav .social a.mail {
       background: #005a87;
       border: 1px solid #005a87; }
       #header .header-nav .social a.mail:hover {
-        border: 1px solid #006b98; }
+        border: 1px solid #006b98; } */
+    #header .header-nav .social a.mail {
+      background: #2f6b8a;
+      border: 1px solid #2f6b8a; }
+      #header .header-nav .social a.mail:hover {
+        border: 1px solid #2f6b8a; }
     #header .header-nav .social a.jianshu {
       background: #ff5722;
       border: 1px solid #ff5722; }
