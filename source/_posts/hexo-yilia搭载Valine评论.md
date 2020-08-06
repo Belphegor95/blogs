@@ -77,7 +77,8 @@ valine:
 
 设置好后,加载的样式如下
 
-![评论](../assets/img/Valine评论)
+
+![评论](2020-8-5-hexo-yilia搭载Valine评论/Valine.jpg)
 
 
 

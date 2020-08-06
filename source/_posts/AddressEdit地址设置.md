@@ -7,8 +7,6 @@ tags:
 	- Vant
 ---
 
-# AddressEdit
-
 在vue中使用vant的`AddressEdit`组件,因为是ui库封好的组件,添加修改复用一个页面导致修改时有默认值,需要绑定在AddressEdit组件上
 
 <!-- more -->
