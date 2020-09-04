@@ -11,13 +11,13 @@ Valine一款快速、简洁且高效的无后端评论系统,理论上支持但�
 
 <!-- more -->
 
-1. 注册leancloud
+1.注册leancloud
 
-   [leancloud](https://www.leancloud.cn/)官网免费注册账号,然后创建应用,生成的应用对应的有`AppID`、`AppKey`
+[leancloud](https://www.leancloud.cn/)官网免费注册账号,然后创建应用,生成的应用对应的有`AppID`、`AppKey`
 
-2. 在博客主题文件添加评论配置设置
+2.在博客主题文件添加评论配置设置
 
-   在`_config.yml`文件评论设置后面添加valine设置
+在`_config.yml`文件评论设置后面添加valine设置
 
 ```
 valine: 
@@ -30,9 +30,9 @@ valine:
  placeholder: 写下你的评论! #评论框占位符
 ```
 
-3. 在`article.ejs`文件中添加valine设置
+3.在`article.ejs`文件中添加valine设置
 
-   在`themes\yilia\layout\_partial\article.ejs`文件中的`<% if (!index && post.comments){ %>`代码后面添加
+在`themes\yilia\layout\_partial\article.ejs`文件中的`<% if (!index && post.comments){ %>`代码后面添加
 
 ```
 <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>

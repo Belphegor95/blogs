@@ -5,6 +5,7 @@ date: 2020-8-4 14:45:12
 comments: true
 tags: 
 	- Vuex
+	- vue
 ---
 
 因为用了`vuex`持久化插件 `vuex-persistedstate`  会把数据存进 `Local Storage` 里,刷新并不会自动初始化默认值,所以就需要自己手动初始化
