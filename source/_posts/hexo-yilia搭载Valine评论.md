@@ -19,7 +19,7 @@ Valine一款快速、简洁且高效的无后端评论系统,理论上支持但�
 
 在`_config.yml`文件评论设置后面添加valine设置
 
-```
+```XML
 valine: 
  appid:  AppID  #Leancloud应用的appId
  appkey: AppKey  #Leancloud应用的appKey
@@ -34,7 +34,7 @@ valine:
 
 在`themes\yilia\layout\_partial\article.ejs`文件中的`<% if (!index && post.comments){ %>`代码后面添加
 
-```
+```XML
 <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
     <section id="comments" class="comments">
       <style>
@@ -54,7 +54,7 @@ valine:
 
 新建在`themes\yilia\layout\_partial\post\valine.ejs`位置
 
-```
+```XML
 <div id="vcomment" class="comment"></div> 
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
